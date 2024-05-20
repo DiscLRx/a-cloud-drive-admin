@@ -11,7 +11,7 @@
       <a-menu v-model:selectedKeys="selectedKeys" theme="dark" mode="inline">
         <RouterLink to="/main/system">
           <a-menu-item key="1">
-            <span class="nav-text">系统设置</span>
+            <span class="nav-text">系统配置</span>
           </a-menu-item>
         </RouterLink>
         <RouterLink to="/main/user-manage">

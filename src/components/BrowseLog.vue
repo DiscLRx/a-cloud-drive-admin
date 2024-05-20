@@ -3,8 +3,8 @@
     <hr>
     <a-layout-content style="background: #fff; margin: 0 1rem;">
       <a-select style="margin: 0.5rem" v-model:value="logSource">
-        <a-select-option value="file_service">文件操作日志</a-select-option>
-        <a-select-option value="system_service">系统管理日志</a-select-option>
+        <a-select-option value="file_service">文件服务日志</a-select-option>
+        <a-select-option value="system_service">系统服务日志</a-select-option>
         <a-select-option value="identity_service">身份服务日志</a-select-option>
       </a-select>
       <a-range-picker style="margin: 0.5rem" v-model:value="dateRange" show-time/>
@@ -67,7 +67,7 @@ const columns = reactive([
     width: 100
   },
   {
-    title: '消息',
+    title: '信息',
     dataIndex: 'message',
     width: 500
   },
